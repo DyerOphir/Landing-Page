@@ -79,3 +79,92 @@ h1 {
     height: 300px;
     margin-right: auto;
 }
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.information {
+    align-items: center;
+}
+
+.dooginfo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.dooginfo img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: solid #3882f6;
+    border-radius: 10px;
+}
+
+.Quote {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.Quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.Quote b {
+    font-size: 36px;
+    padding-right: 400px;
+    text-align: right;
+    padding-bottom: 100px;
+    font-weight: bolder;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+    margin: 30px 600px 30px 600px;
+    border-radius: 10px;   
+}
+
+h3 {
+    color: white;
+    padding: 0;
+    margin: 20px;
+}
+
+.sign-items {
+    flex: 1;
+}
+
+.sign-text {
+    text-align: left;
+}
+
+.sign-text p {
+    color: white;
+}
+
+.sign-button button {
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 0px 50px;
+    background-color:#3882f6;
+    height: 50px;
+    width: 150px;
+    opacity: 70%;
+}
+
+
